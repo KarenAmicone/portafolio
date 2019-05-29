@@ -1,27 +1,88 @@
-.App {
-  text-align: center;
+*{
+  margin:0px;
+}
+
+h1{
+  font-family: 'Dancing Script', cursive;
+}
+
+.home-container{
+  margin:0;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: 10% 40% 40% 10%;
+  height: 100vh;
+  justify-items: center;
+  align-items: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  width: 300px;
   pointer-events: none;
+  grid-column: 2/4;
+  grid-row: 2/4;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-logo{
+  grid-column: 2/4;
+  grid-row: 2/4;
+  width: 88px;
 }
 
-.App-link {
-  color: #61dafb;
+#arrow{
+  grid-column: 4/5;
+  grid-row: 4/5;
 }
+
+.logos >img{
+  width: 30px;
+}
+
+.about-container{
+  display: grid;
+  height: 220vh;
+  grid-template-columns: 10% 10% 35% 35% 10%;
+  grid-template-rows: 20% 20% 10% 20% 20% 10%;
+}
+
+.present-container{
+  background: #161512;
+  grid-column: 2/6;
+  grid-row: 1/4;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 20%);
+}
+
+#Karen{
+  border-radius: 60px;
+  width: 110px;
+  grid-column: 2/4;
+  grid-row: 1/2;
+  align-self: center;
+  justify-self: center;
+}
+
+.text-container{
+  grid-column: 1/5;
+  grid-row: 2/5;
+  margin: 5px;
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+  line-height: 40px;
+  color: #FFFDFD;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 30% 25% 25% 20% ;
+}
+
+.text-container >p{
+  margin: 25px;
+}
+
+#one{grid-area: 1/1/2/5}
+#two{grid-area: 2/1/4/5}
+#three{grid-area: 4/1/5/5}
 
 @keyframes App-logo-spin {
   from {
