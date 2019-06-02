@@ -55,6 +55,39 @@
                 "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/css5.png?raw=true"
             }
         ]
+    },
+    {
+        "title": "Moodvie",
+        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/burger.png?raw=true",
+        "description": "Moodvie is a mobile web app that recommends movies based on your mood. How do you feel today?   " ,
+        "repo": "https://github.com/KarenAmicone/Peliculas-entomatadas",
+        "demo": "https://karenamicone.github.io/Peliculas-entomatadas/src/",
+        "tools": [
+            {
+                "name": "javascript",
+                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/js.png?raw=true"
+            }, 
+            {
+                "name": "materialize",
+                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/materialize.png?raw=true"
+            }, 
+            {
+                "name": "github",
+                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/github.png?raw=true"
+            }, 
+            {
+                "name": "git",
+                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/git.png?raw=true"
+            },
+            {
+                "name": "html",
+                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/html5.png?raw=true"
+            },
+            {
+                "name": "css",
+                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/css5.png?raw=true"
+            }
+        ]
     }
 
 ]
