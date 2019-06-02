@@ -22,5 +22,39 @@
                 "name": "npm",
                 "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/npm.png?raw=true"
             }]
+    },
+    {
+        "title": "Burger Queen",
+        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/burger.png?raw=true",
+        "description": "Burger Queen is a progressive web app for fast food restaurants. It is designed for tablet. Its main purpose is to take client orders." ,
+        "repo": "https://github.com/KarenAmicone/Burger-Queen",
+        "demo": "https://burger-queen-3c206.firebaseapp.com/",
+        "tools": [
+            {
+                "name": "react",
+                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/React.png?raw=true"
+            }, 
+            {
+                "name": "redux",
+                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/Redux.png?raw=true"
+            }, 
+            {
+                "name": "github",
+                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/github.png?raw=true"
+            }, 
+            {
+                "name": "git",
+                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/git.png?raw=true"
+            },
+            {
+                "name": "html",
+                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/html5.png?raw=true"
+            },
+            {
+                "name": "css",
+                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/css5.png?raw=true"
+            }
+        ]
     }
+
 ]

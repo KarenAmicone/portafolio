@@ -1,83 +1,47 @@
 *{
-  margin:0px;
-  font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
-h3{
-  text-align: center; 
-  margin: 0;
+.intro-container{
+    background-color: mediumslateblue;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: repeat(3, auto);
+    margin: 15px;
+    align-items: center;
+    justify-items: center;
 }
 
-p{
-  text-align: justify;
+.title{
+    grid-row: 1/2;
 }
 
-.nav-wrapper{
-  background-color: #CC2B4B;
+.content{
+    grid-row: 2/3;
 }
 
-#logo{
-  width: 30px;
+.contact-bttn{
+    grid-row: 3/4;
 }
 
-.name{
-  margin-top: 10%;
+.about-container{
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    justify-items: center;
+    align-items: center;
 }
 
-.home-container{
-  margin:0;
-  display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-template-rows: 10% 40% 40% 10%;
-  height: 90vh;
-  justify-items: center;
-  align-items: center;
+.about-me{
+    grid-row: 1/2;
+    background-color: pink;
+    margin: 15px;
 }
 
-.App-logo {
-  width: 300px;
-  grid-column: 2/4;
-  grid-row: 2/4;
+.photo{
+    grid-row: 2/3;
+    margin: 15px;
 }
 
-.text-logo{
-  grid-column: 2/4;
-  grid-row: 2/4;
-  width: 88px;
-}
-
-#arrow{
-  grid-column: 4/5;
-  grid-row: 4/5;
-}
-
-.logos >img{
-  width: 30px;
-}
-
-#karen{
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
-}
-
-.tools-container{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50px, 60px));
-  align-items: center;
-  justify-items: center;
-}
-
-.tool{
-  width: 40px;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.karen{
+    width: 100%;
 }

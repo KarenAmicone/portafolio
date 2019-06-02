@@ -1,0 +1,83 @@
+*{
+  margin:0px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h3{
+  text-align: center; 
+  margin: 0;
+}
+
+p{
+  text-align: justify;
+}
+
+.nav-wrapper{
+  background-color: #CC2B4B;
+}
+
+#logo{
+  width: 30px;
+}
+
+.name{
+  margin-top: 10%;
+}
+
+.home-container{
+  margin:0;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: 10% 40% 40% 10%;
+  height: 90vh;
+  justify-items: center;
+  align-items: center;
+}
+
+.App-logo {
+  width: 300px;
+  grid-column: 2/4;
+  grid-row: 2/4;
+}
+
+.text-logo{
+  grid-column: 2/4;
+  grid-row: 2/4;
+  width: 88px;
+}
+
+#arrow{
+  grid-column: 4/5;
+  grid-row: 4/5;
+}
+
+.logos >img{
+  width: 30px;
+}
+
+#karen{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.tools-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 60px));
+  align-items: center;
+  justify-items: center;
+}
+
+.tool{
+  width: 40px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
