@@ -1,9 +1,27 @@
 *{
   margin:0px;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
-h1{
-  font-family: 'Dancing Script', cursive;
+h3{
+  text-align: center; 
+  margin: 0;
+}
+
+p{
+  text-align: justify;
+}
+
+.nav-wrapper{
+  background-color: #CC2B4B;
+}
+
+#logo{
+  width: 30px;
+}
+
+.name{
+  margin-top: 10%;
 }
 
 .home-container{
@@ -11,14 +29,13 @@ h1{
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 1fr;
   grid-template-rows: 10% 40% 40% 10%;
-  height: 100vh;
+  height: 90vh;
   justify-items: center;
   align-items: center;
 }
 
 .App-logo {
   width: 300px;
-  pointer-events: none;
   grid-column: 2/4;
   grid-row: 2/4;
 }
@@ -38,51 +55,14 @@ h1{
   width: 30px;
 }
 
-.about-container{
-  display: grid;
-  height: 220vh;
-  grid-template-columns: 10% 10% 35% 35% 10%;
-  grid-template-rows: 20% 20% 10% 20% 20% 10%;
+#karen{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
 }
 
-.present-container{
-  background: #161512;
-  grid-column: 2/6;
-  grid-row: 1/4;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, 20%);
-}
 
-#Karen{
-  border-radius: 60px;
-  width: 110px;
-  grid-column: 2/4;
-  grid-row: 1/2;
-  align-self: center;
-  justify-self: center;
-}
-
-.text-container{
-  grid-column: 1/5;
-  grid-row: 2/5;
-  margin: 5px;
-  font-family: 'Righteous', cursive;
-  font-size: 20px;
-  line-height: 40px;
-  color: #FFFDFD;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 30% 25% 25% 20% ;
-}
-
-.text-container >p{
-  margin: 25px;
-}
-
-#one{grid-area: 1/1/2/5}
-#two{grid-area: 2/1/4/5}
-#three{grid-area: 4/1/5/5}
 
 @keyframes App-logo-spin {
   from {

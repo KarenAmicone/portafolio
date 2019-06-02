@@ -1,18 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
-import {NavLink} from 'react-router-dom'
+import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Home from './components/Home';
 import About from './components/About';
-import Portfolio from './components/Work';
+import Work from './components/Work';
 
 function App() {
   return (
-    <>
-    <Home/>
-    <About/>
-    </>      
+    <Router> 
+      <Navbar/>
+        <Route exact path="/" component={Home}/>
+        <Route path="/about" component={About}/>
+        <Route path="/work" component={Work}/>
+    </Router>      
   );
 }
 
