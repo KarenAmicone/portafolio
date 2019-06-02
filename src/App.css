@@ -62,7 +62,16 @@ p{
   width: 150px;
 }
 
+.tools-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 60px));
+  align-items: center;
+  justify-items: center;
+}
 
+.tool{
+  width: 40px;
+}
 
 @keyframes App-logo-spin {
   from {
