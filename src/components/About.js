@@ -1,11 +1,19 @@
 import React from 'react'
-import Karen from '../assets/Amicone-06.jpg'
+import Karen from '../assets/Karen.png'
 
 const About = () => {
     return (
         <section className="about-container">
             <article className="about-me">
-                <button>Contact</button>
+                <h2 id="title">Hi! I'm Karen Amicone. I love challenges and solving problems with code.</h2>
+                <article id="content">
+                    <p>I'm a frontend developer, but I've also been involved in arts, social sciences and more!</p>
+                    <br></br>
+                    <p>At this moment, I want to work on stimulating projects as a frontend developer, but I want to learn fullstack skills.</p>
+                    <br></br>
+                    <p>As well, I'm interested in women's empowerment, environmental care, neurosciences and traveling.</p> 
+                </article>
+                <button className="contact-bttn">Contact</button>
             </article>
             <article className="photo">
                 <img src={Karen} alt="karen" className="karen"></img>

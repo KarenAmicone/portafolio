@@ -3,7 +3,6 @@ import './App.css'
 import Intro from './components/Intro'
 import About from './components/About'
 import Work from './components/Work'
-import Experience from './components/Experience'
 import Contact from './components/Contact'
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
       <Intro/>
       <About/> 
       <Work/> 
-      <Experience/>
       <Contact/>
     </section> 
   );
