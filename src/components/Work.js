@@ -17,12 +17,12 @@ const Work = () => {
                     <a className="link" href={project.repo}>Repository</a>
                     <a className="link" href={project.demo}>Demo</a>
                 </article>
-                <article className="tools">
+                {/* <article className="tools">
                     <h3>Tools</h3>
                         {project.tools.map(tool=>(
                             <img src={tool.href} alt={tool.name}></img>
                         ))}
-                </article>
+                </article> */}
             </article>
             ))}
         </section>
