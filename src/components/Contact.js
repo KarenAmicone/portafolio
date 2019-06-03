@@ -1,21 +1,30 @@
 import React from 'react'
+import ScrollableAnchor from 'react-scrollable-anchor'
+import linkedin from '../assets/linkedin.png'
+import github from '../assets/github.png'
+import instagram from '../assets/instagram.png'
 
 const Contact = () => {
     return(
+        <ScrollableAnchor id={'section1'}>
     <section className="contact-container">
         <article className="contact">
-            <h2>"One isn't lazy about what one loves"</h2>
-            <h4>-Aldous Huxley</h4>
+            <h2>Get in touch</h2>
             <br></br>
-            <a>karen_amicone@hotmail.com</a>
+            <h3>e-mail</h3>
+            <p>karen_amicone@hotmail.com</p>
             <br></br>
-            <ul>
-                <li><a href="https://www.instagram.com/karenamicen/"><img></img></a></li>
-                <li><a><img></img></a></li>
-                <li>Github</li>
-            </ul> 
+            <article>
+            <h3>Follow me</h3>
+            <img src={instagram} alt="instagram" id="social-media"></img><a href="https://www.instagram.com/karenamicen/">@karenamicen</a>
+            <br></br>
+            <img src={linkedin} alt="linkedin" id="social-media"></img><a href="https://www.linkedin.com/in/karen-amicone-centeno/">Karen Amicone</a>
+            <br></br>
+            <img src={github} alt="github" id="social-media"></img><a href="https://github.com/KarenAmicone">KarenAmicone</a>
+            </article>
         </article>
     </section>
+    </ScrollableAnchor>
     )
 }
 

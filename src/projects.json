@@ -1,94 +1,27 @@
 [
     {
         "title": "your-md-links",
-        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/mdlinks.png?raw=true",
-        "description": "Is a npm package that reads Markdown files to identify its links, count them and verify their response status." ,
+        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/yourmdlinks.png?raw=true",
+        "description": "This npm package reads markdown files to identify its links, count them and verify their response status." ,
         "repo": "https://github.com/KarenAmicone/CDMX007-fe-md-links",
         "demo": "https://www.npmjs.com/package/your-md-links",
-        "tools": [
-            {
-                "name": "node",
-                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/nodejs.png?raw=true"
-            }, 
-            {
-                "name": "git",
-                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/git.png?raw=true"
-            }, 
-            {
-                "name": "github",
-                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/github.png?raw=true"
-            }
-            ]
+        "tools": "Node JS / Git / Github / npm"
     },
     {
         "title": "Burger Queen",
-        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/burger.png?raw=true",
-        "description": "Burger Queen is a progressive web app for fast food restaurants. It is designed for tablet. Its main purpose is to take client orders." ,
+        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/burguerqueen.png?raw=true",
+        "description": "In this project I worked with Andrea Parrilla (UX designer). We developed this PWA to register the orders of fastfood restaurants" ,
         "repo": "https://github.com/KarenAmicone/Burger-Queen",
         "demo": "https://burger-queen-3c206.firebaseapp.com/",
-        "tools": [
-            {
-                "name": "react",
-                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/React.png?raw=true"
-            }, 
-            {
-                "name": "firebase",
-                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/firebase.png?raw=true"
-            }, 
-            {
-                "name": "redux",
-                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/Redux.png?raw=true"
-            }, 
-            {
-                "name": "github",
-                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/github.png?raw=true"
-            }, 
-            {
-                "name": "git",
-                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/git.png?raw=true"
-            },
-            {
-                "name": "html",
-                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/html5.png?raw=true"
-            },
-            {
-                "name": "css",
-                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/css5.png?raw=true"
-            }
-        ]
+        "tools": "React / Redux / Firebase / Github / Git / HTML / CSS grids"
     },
     {
         "title": "Moodvie",
-        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/burger.png?raw=true",
-        "description": "Moodvie is a mobile web app that recommends movies based on your mood. How do you feel today?   " ,
+        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/moodvie.png?raw=true",
+        "description": "This mobile web app recommends movies based on your mood. How do you feel today?   " ,
         "repo": "https://github.com/KarenAmicone/Peliculas-entomatadas",
         "demo": "https://karenamicone.github.io/Peliculas-entomatadas/src/",
-        "tools": [
-            {
-                "name": "javascript",
-                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/js.png?raw=true"
-            }, 
-            {
-                "name": "materialize",
-                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/materialize.png?raw=true"
-            }, 
-            {
-                "name": "github",
-                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/github.png?raw=true"
-            }, 
-            {
-                "name": "git",
-                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/git.png?raw=true"
-            },
-            {
-                "name": "html",
-                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/html5.png?raw=true"
-            },
-            {
-                "name": "css",
-                "href": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/css5.png?raw=true"
-            }
-        ]
+        "tools": "Javacript / Materialize / Github / Git / HTML / CSS grids"
     }
 
 ]
