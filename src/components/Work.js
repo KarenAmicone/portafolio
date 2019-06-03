@@ -7,7 +7,7 @@ const Work = () => {
         <article className="intro-work">
             <h2>Recent Work</h2>
             <br></br>
-            <p>The last months I studied at Laboratoria, where I made this awesome projects</p>
+            <p>The last months I studied at Laboratoria, where I made these awesome projects</p>
             <a href="https://github.com/KarenAmicone">Check all my work on Github</a>
         </article>
         <article className="work-container">
