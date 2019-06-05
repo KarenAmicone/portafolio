@@ -1,8 +1,8 @@
 [
     {
-        "title": "your-md-links",
-        "img": "",
-        "description": "This npm package reads markdown files to identify its links, count them and verify their response status." ,
+        "title": "",
+        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/Your-md-links.png?raw=true",
+        "description": "your-md-links is npm package that reads markdown files to identify its links, count them and verify their response status." ,
         "repo": "https://github.com/KarenAmicone/CDMX007-fe-md-links",
         "demo": "https://www.npmjs.com/package/your-md-links",
         "tools": "Node JS / Git / Github / npm"
