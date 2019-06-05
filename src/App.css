@@ -61,7 +61,7 @@ p, a{
     background-color: #00072C73;
     margin: 15px;
     padding: 10px; 
-    height: 70vh; 
+    height: 100vh; 
     display: grid;
     grid-template-rows: repeat(3, auto);
     justify-items: center;
@@ -269,6 +269,10 @@ p, a{
   }
 
   @media (min-width: 1200px){
+      .intro{
+        height: 100vh;
+      }
+
     .about-container{
         display: grid;
         grid-template-columns: 65% 35%;
@@ -277,7 +281,7 @@ p, a{
     }  
 
     .about-me{
-        height: 90vh;
+        height: 95vh;
         grid-row: 1/2;
         grid-column: 1/2;
         margin: 40px;
