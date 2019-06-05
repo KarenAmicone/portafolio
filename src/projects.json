@@ -1,23 +1,23 @@
 [
     {
         "title": "your-md-links",
-        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/yourmdlinks.png?raw=true",
+        "img": "",
         "description": "This npm package reads markdown files to identify its links, count them and verify their response status." ,
         "repo": "https://github.com/KarenAmicone/CDMX007-fe-md-links",
         "demo": "https://www.npmjs.com/package/your-md-links",
         "tools": "Node JS / Git / Github / npm"
     },
     {
-        "title": "Burger Queen",
-        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/burguerqueen.png?raw=true",
-        "description": "In this project I worked with Andrea Parrilla (UX designer). We developed a PWA to register the orders of fastfood restaurants." ,
+        "title": "",
+        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/login.png?raw=true",
+        "description": "Burger Queen is a PWA designed to record the orders of fast food restaurants." ,
         "repo": "https://github.com/KarenAmicone/Burger-Queen",
         "demo": "https://burger-queen-3c206.firebaseapp.com/",
         "tools": "React / Redux / Firebase / Github / Git / HTML / CSS grids"
     },
     {
-        "title": "Moodvie",
-        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/moodvie.png?raw=true",
+        "title": "",
+        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/load.png?raw=true",
         "description": "This mobile web app recommends movies based on your mood. How do you feel today?" ,
         "repo": "https://github.com/KarenAmicone/Peliculas-entomatadas",
         "demo": "https://karenamicone.github.io/Peliculas-entomatadas/src/",
