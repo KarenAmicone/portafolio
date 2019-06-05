@@ -9,18 +9,20 @@ const Contact = () => {
         <ScrollableAnchor id={'section1'}>
     <section className="contact-container">
         <article className="contact">
-            <h2>Get in touch</h2>
-            <br></br>
-            <h3>e-mail</h3>
-            <p>karen_amicone@hotmail.com</p>
-            <br></br>
-            <article>
-            <h3>Follow me</h3>
-            <img src={instagram} alt="instagram" id="social-media"></img><a href="https://www.instagram.com/karenamicen/">@karenamicen</a>
-            <br></br>
-            <img src={linkedin} alt="linkedin" id="social-media"></img><a href="https://www.linkedin.com/in/karen-amicone-centeno/">Karen Amicone</a>
-            <br></br>
-            <img src={github} alt="github" id="social-media"></img><a href="https://github.com/KarenAmicone">KarenAmicone</a>
+            <article className="email">
+                <h2>Get in touch</h2>
+                <br></br>
+                <h3>e-mail</h3>
+                <p>karen_amicone@hotmail.com</p>
+                <br></br>
+            </article>
+            <article className="social-media">
+                <h3>Follow me</h3>
+                <img src={instagram} alt="instagram" id="social-media"></img><a href="https://www.instagram.com/karenamicen/">@karenamicen</a>
+                <br></br>
+                <img src={linkedin} alt="linkedin" id="social-media"></img><a href="https://www.linkedin.com/in/karen-amicone-centeno/">Karen Amicone</a>
+                <br></br>
+                <img src={github} alt="github" id="social-media"></img><a href="https://github.com/KarenAmicone">KarenAmicone</a>
             </article>
         </article>
     </section>

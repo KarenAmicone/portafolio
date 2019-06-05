@@ -7,8 +7,8 @@ const Work = () => {
         <article className="intro-work">
             <h2>Recent Work</h2>
             <br></br>
-            <p>The last months I studied at Laboratoria, where I made these awesome projects</p>
-            <a href="https://github.com/KarenAmicone">Check all my work on Github</a>
+            <p>The following are the most important projects in which I've been working in.</p>
+            <a href="https://github.com/KarenAmicone">If you want to see all my work, click here</a>
         </article>
         <article className="work-container">
             {projects.map(project=>(

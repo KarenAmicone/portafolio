@@ -10,7 +10,7 @@
     {
         "title": "Burger Queen",
         "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/burguerqueen.png?raw=true",
-        "description": "In this project I worked with Andrea Parrilla (UX designer). We developed this PWA to register the orders of fastfood restaurants" ,
+        "description": "In this project I worked with Andrea Parrilla (UX designer). We developed a PWA to register the orders of fastfood restaurants." ,
         "repo": "https://github.com/KarenAmicone/Burger-Queen",
         "demo": "https://burger-queen-3c206.firebaseapp.com/",
         "tools": "React / Redux / Firebase / Github / Git / HTML / CSS grids"
@@ -18,7 +18,7 @@
     {
         "title": "Moodvie",
         "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/moodvie.png?raw=true",
-        "description": "This mobile web app recommends movies based on your mood. How do you feel today?   " ,
+        "description": "This mobile web app recommends movies based on your mood. How do you feel today?" ,
         "repo": "https://github.com/KarenAmicone/Peliculas-entomatadas",
         "demo": "https://karenamicone.github.io/Peliculas-entomatadas/src/",
         "tools": "Javacript / Materialize / Github / Git / HTML / CSS grids"

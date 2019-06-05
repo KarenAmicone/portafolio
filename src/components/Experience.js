@@ -1,11 +1,13 @@
 import React from 'react'
 
-const Experience = () => {
-    return(
-    <section className="exp-container">
-
-    </section>
-    )
+ 
+class Experience extends React.Component{
+    render(){
+        return (
+            
+        );
+    };
+ 
 }
 
 export default Experience
