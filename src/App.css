@@ -16,34 +16,23 @@ p, a{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: auto;
+    height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-template-rows: 10% 40% 40% 10%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     justify-items: center;
     align-items: center;
 }
 
 #particles{
-    grid-column: 1/5;
-    grid-row: 1/5;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 #logo{
-    width: 50%;
-    grid-column: 2/4;
-    grid-row: 2/4;
-}
-
-.bttn-purple{
-    grid-row: 3/4;
-    margin: 15px;
-    height: 35px;
-    width: 70%;
-    font-size: 18px;
-    font-weight: bold;
-    background-color: #743762;
-    border-color: #743762;
+    width: 80%;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 .about-container{
@@ -77,20 +66,67 @@ p, a{
 }
 
 .contact-bttn{
-    background-color: #743762;
-    border-color: #743762;
-    width: 60%;
     grid-row: 3/4;
-    height: 35px;
+    background-color: #743762;
+    width: 60%;
+    height: 1.5em;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: .08em;
-    cursor: pointer;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    padding: 12px 40px 10px;
+    position: relative;
+}
+
+.contact-bttn:before,
+.contact-bttn:after {
+  border: 0 solid transparent;
+  transition: all 0.25s;
+  content: '';
+  height: 24px;
+  position: absolute;
+  width: 24px;
+}
+.contact-bttn:before {
+  border-top: 2px solid #743762;
+  left: 0px;
+  top: -5px;
+}
+.contact-bttn:after {
+  border-bottom: 2px solid #743762;
+  bottom: -5px;
+  right: 0px;
+}
+.contact-bttn:hover {
+  background-color: #743762;
+}
+.contact-bttn:hover:before,
+.contact-bttn:hover:after {
+  height: 100%;
+  width: 100%;
 }
 
 #contact-a{
     text-decoration: none;
     text-align: center;
+}
+
+#linkedin{
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 20px;
+}
+
+.exp{
+    display: grid;
+    height: auto;
+    grid-template-rows: repeat(2, auto);
+    background-image: url('./assets/intro.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .photo{
@@ -273,6 +309,12 @@ p, a{
         height: 100vh;
       }
 
+      #logo{
+        width: 40%;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
     .about-container{
         display: grid;
         grid-template-columns: 65% 35%;
@@ -281,7 +323,7 @@ p, a{
     }  
 
     .about-me{
-        height: 95vh;
+        height: 90vh;
         grid-row: 1/2;
         grid-column: 1/2;
         margin: 40px;
@@ -301,7 +343,7 @@ p, a{
     #content{
         grid-row: 2/3;
         grid-column: 1/4;
-        padding-right: 10%;
+        padding: 1em
     }
     
     .contact-bttn{
@@ -320,6 +362,10 @@ p, a{
     .karen{
         width: 100%;
         height: auto;
+    }
+
+    .contact-container{
+        height: 100vh;  
     }
 
   }

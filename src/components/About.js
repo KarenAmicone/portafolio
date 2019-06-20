@@ -1,6 +1,7 @@
 import React from 'react'
 import Karen from '../assets/Amicone-06.jpg'
 
+
 const About = () => {
     return (
         <section className="about-container">
