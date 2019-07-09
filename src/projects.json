@@ -38,6 +38,13 @@
         "repo": "https://github.com/KarenAmicone/melp",
         "demo": "https://expo.io/@karenamicone/melp",
         "tools": "Javascript / Materialize / Github / Git / HTML5 " 
+    },
+    {
+        "title": "Picfood",
+        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/picfood.png?raw=true",
+        "description": "Picfood is a social network where people can share photos of their food without being judge" ,
+        "repo": "https://github.com/KarenAmicone/Social-Network",
+        "demo": "https://picfood-a0a5a.firebaseapp.com/",
+        "tools": "Javascript / Bootstrap / Firebase / Github / Git / HTML5 " 
     }
-
 ]
