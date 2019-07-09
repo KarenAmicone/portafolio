@@ -1,6 +1,7 @@
 import React from 'react'
 import projects from '../projects.json'
 import github from '../assets/github.png'
+import { Carousel } from "react-responsive-carousel";
 
 const Work = () => {
     return(
@@ -12,30 +13,34 @@ const Work = () => {
             <p>If you want to see all my work, click here: </p>
             <a href="https://github.com/KarenAmicone"><img src={github} alt="github" id="social-media"></img> Github</a>
         </article>
-        <article className="work-container">
-            {projects.map(project=>(
-                <article className="card" key={project.title}>
-                <figure className="mockup">
-                    <img src={project.img}></img>
-                </figure>
-                <article className="card-content">
-                    <h2>{project.title}</h2>
+       
+        {projects.map(project=>(
+            <div class="contenedor">
+            <div class="explorador">
+              <div class="explorador__imagen">
+                  <img src={project.img} alt=''></img>
+                
+              </div>
+              <div class="explorador__contenido">
+                <div class="explorador__cabecera">
+                  <h3 class="explorador__nombre">{project.title}</h3>
+                </div>
+                <p class="explorador__bio">
+                  {project.description}
+                </p>
+                <p class="explorador__bio">
+                  Tools: {project.tools}
+                </p>
+                <div class="explorador__pie">
+                    <a href={project.repo}>Github repository</a>
                     <br></br>
-                    <p>{project.description}</p>
-                </article>
-                
-                <article className="card-link">
-                
-                    <a className="link" href={project.repo}>Repository</a>
-                    <a className="link" href={project.demo}>Demo</a>
-                </article>
-                {<article className="tools">
-                    <h2>Tools</h2>
-                    <p>{project.tools}</p>
-                </article>}
-            </article>
-            ))}
-        </article>
+                    <a href={project.demo}>Demo</a>
+                </div>
+              </div>
+            </div>
+            </div>
+        ))}
+  
         </section>
     )
 }

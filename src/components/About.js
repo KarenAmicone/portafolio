@@ -9,7 +9,7 @@ const About = () => {
                 <h2 id="title">Hi! I'm Karen Amicone. I love challenges and solving problems with code.</h2>
                 <article id="content">
                 <br></br>
-                    <p>Since last January I've been working at Laboratoria, where I've created several apps with Javascript vanilla and React.</p> 
+                    <p>Since last January I've been working at Laboratoria, where I've created several apps with Javascript and React.</p> 
                     <br></br>
                     <p>I'm currently developing a native app with React Native.</p>
                     <br></br>

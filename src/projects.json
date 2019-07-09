@@ -1,6 +1,6 @@
 [
     {
-        "title": "",
+        "title": "Your-md-links",
         "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/Your-md-links.png?raw=true",
         "description": "your-md-links is npm package that reads markdown files to identify its links, count them and verify their response status." ,
         "repo": "https://github.com/KarenAmicone/CDMX007-fe-md-links",
@@ -8,7 +8,7 @@
         "tools": "Node JS / Git / Github / npm"
     },
     {
-        "title": "",
+        "title": "Burger Queen",
         "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/burgerqueen.png?raw=true",
         "description": "Burger Queen is a PWA designed to record the orders of fast food restaurants." ,
         "repo": "https://github.com/KarenAmicone/Burger-Queen",
@@ -16,12 +16,20 @@
         "tools": "React / Redux / Firebase / Github / Git / HTML / CSS grids"
     },
     {
-        "title": "",
+        "title": "Moodvie",
         "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/moodvie.png?raw=true",
         "description": "This mobile web app recommends movies based on your mood. How do you feel today?" ,
         "repo": "https://github.com/KarenAmicone/Peliculas-entomatadas",
         "demo": "https://karenamicone.github.io/Peliculas-entomatadas/src/",
         "tools": "Javacript / Materialize / Github / Git / HTML / CSS grids"
+    },
+    {
+        "title": "Tic-tac-space",
+        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/tic-tac.png?raw=true",
+        "description": "Play tic-tac-toe in the space" ,
+        "repo": "https://github.com/KarenAmicone/tic-tac-toe",
+        "demo": "https://expo.io/@karenamicone/tic-tac-toe",
+        "tools": "React Native / Expo" 
     }
 
 ]
