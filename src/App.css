@@ -30,15 +30,16 @@ img {
   }
   
   .explorador__imagen {
-    max-height: 20em;
+    height: 20em;
     overflow: hidden;
-  background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 10px 10px 0 0;
   }
   
   .explorador__imagen img {
-    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
     display: block;
     opacity: 0.4;
     filter: grayscale(100%);

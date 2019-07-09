@@ -19,7 +19,6 @@ const Work = () => {
             <div class="explorador">
               <div class="explorador__imagen">
                   <img src={project.img} alt=''></img>
-                
               </div>
               <div class="explorador__contenido">
                 <div class="explorador__cabecera">
