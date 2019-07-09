@@ -25,7 +25,7 @@
     },
     {
         "title": "Tic-tac-space",
-        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/tic-tac.png?raw=true",
+        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/tic-tac.jpg?raw=true",
         "description": "Play tic-tac-toe in the space" ,
         "repo": "https://github.com/KarenAmicone/tic-tac-toe",
         "demo": "https://expo.io/@karenamicone/tic-tac-toe",
