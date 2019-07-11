@@ -11,28 +11,28 @@ const Work = () => {
             <br></br>
             <p>The following are the most important projects in which I've been working in.</p>
             <p>If you want to see all my work, click here: </p>
-            <a target="_blank" href="https://github.com/KarenAmicone"><img src={github} alt="github" id="social-media"></img> Github</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/KarenAmicone"><img src={github} alt="github" id="social-media"></img> Github</a>
         </article>
-        <div class="container">
+        <div className="container">
         {projects.map(project=>(
-            <div class="project">
-              <div class="project__image">
-                  <img src={project.img} alt=''></img>
+            <div className="project" key={project.title}>
+              <div className="project__image">
+                  <img src={project.img} alt={project.title}></img>
               </div>
-              <div class="project__container">
-                <div class="project__title">
-                  <h3 class="project__name">{project.title}</h3>
+              <div className="project__container">
+                <div className="project__title">
+                  <h3 className="project__name">{project.title}</h3>
                 </div>
-                <p class="project__bio">
+                <p className="project__bio">
                   {project.description}
                 </p>
-                <p class="project__bio">
+                <p className="project__bio">
                   Tools: {project.tools}
                 </p>
-                <div class="project__foot">
-                    <a target="_blank" href={project.repo}>Github repository</a>
+                <div className="project__foot">
+                    <a target="_blank" rel="noopener noreferrer" href={project.repo}>Github repository</a>
                     <br></br>
-                    <a target="_blank" href={project.demo}>Demo</a>
+                    <a target="_blank" rel="noopener noreferrer" href={project.demo}>Demo</a>
                 </div>
               </div>
             </div>

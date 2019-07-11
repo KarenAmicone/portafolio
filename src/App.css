@@ -21,7 +21,7 @@ img {
   }
   
   .project {
-    width: 20em;
+    width: 18em;
     margin: 1em;
     border-radius: 10px;
     background-color: rgba(250, 250, 250, 0.95);
@@ -29,7 +29,7 @@ img {
     display: flex;
     flex-direction: column;
   }
-  
+    
   .project__image {
     height: 20em;
     overflow: hidden;
@@ -184,12 +184,6 @@ img {
 #contact-a{
     text-decoration: none;
     text-align: center;
-}
-
-#linkedin{
-    align-self: center;
-    justify-self: center;
-    margin-bottom: 20px;
 }
 
 .exp{
