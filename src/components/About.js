@@ -9,11 +9,12 @@ const About = () => {
                 <h2 id="title">Hi! I'm Karen Amicone. I love challenges and solving problems with code.</h2>
                 <article id="content">
                 <br></br>
-                    <p>Since last January I've been working at Laboratoria, where I've created several apps with Javascript and React.</p> 
+                    <p>I am a frontend developer who is passionate about learning. First I studied Economics, but I decided to make a career change because I discovered how fascinating an empowering Technology is.</p> 
+                    {/* Since last January I've been working at Laboratoria, where I've created several apps with Javascript and React. */}
                     <br></br>
-                    <p>I'm currently developing a native app with React Native.</p>
+                    <p>I studied Economics at UNAM and frontend development at Laboratoria Coding.</p>
                     <br></br>
-                    <p>In addition to web development, I studied a bachelor's degree in Economics at UNAM, which has made it easier for me to start this path due to my self-taught skills, work organization and logical thinking.</p> 
+                    <p>My main tools are Javascript and React, but I'm eager to learn more!</p> 
                     <br></br>
                 </article>
                 <a id="contact-a" href='#section1' className="contact-bttn">Contact</a>

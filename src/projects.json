@@ -5,7 +5,7 @@
         "description": "your-md-links is npm package that reads markdown files to identify its links, count them and verify their response status." ,
         "repo": "https://github.com/KarenAmicone/CDMX007-fe-md-links",
         "demo": "https://www.npmjs.com/package/your-md-links",
-        "tools": "Node JS / Git / Github / npm"
+        "tools": ["nodejs", "npm"]
     },
     {
         "title": "Burger Queen",
@@ -13,7 +13,7 @@
         "description": "Burger Queen is a PWA designed to record the orders of fast food restaurants." ,
         "repo": "https://github.com/KarenAmicone/Burger-Queen",
         "demo": "https://burger-queen-3c206.firebaseapp.com/",
-        "tools": "React / Redux / Firebase / Github / Git / HTML5 / CSS grids"
+        "tools": ["React", "Redux",  "firebase", "html5", "css5"]
     },
     {
         "title": "Moodvie",
@@ -21,7 +21,7 @@
         "description": "This mobile web app recommends movies based on your mood. How do you feel today?" ,
         "repo": "https://github.com/KarenAmicone/Peliculas-entomatadas",
         "demo": "https://karenamicone.github.io/Peliculas-entomatadas/src/",
-        "tools": "Javacript / Materialize / Github / Git / HTML5 / CSS grids"
+        "tools": ["js", "materialize", "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/html5.png?raw=true", "css5"]
     },
     {
         "title": "Tic-tac-space",
@@ -29,22 +29,6 @@
         "description": "Play tic-tac-toe in the space" ,
         "repo": "https://github.com/KarenAmicone/tic-tac-toe",
         "demo": "https://expo.io/@karenamicone/tic-tac-toe",
-        "tools": "React Native / Expo" 
-    },
-    {
-        "title": "Melp",
-        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/melp.png?raw=true",
-        "description": "Melp is a business focussed on showing information about the best restaurants in the city" ,
-        "repo": "https://github.com/KarenAmicone/melp",
-        "demo": "https://expo.io/@karenamicone/melp",
-        "tools": "Javascript / Materialize / Github / Git / HTML5 " 
-    },
-    {
-        "title": "Picfood",
-        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/picfood.png?raw=true",
-        "description": "Picfood is a social network where people can share photos of their food without being judge" ,
-        "repo": "https://github.com/KarenAmicone/Social-Network",
-        "demo": "https://picfood-a0a5a.firebaseapp.com/",
-        "tools": "Javascript / Bootstrap / Firebase / Github / Git / HTML5 " 
+        "tools": ["reactnative", "expo"]
     }
 ]
