@@ -6,7 +6,7 @@ const Work = () => {
     return(
         <section className="work">
         <article className="intro-work">
-            <h2>Recent Work</h2>
+            <h3>Recent Work</h3>
             <p>To see all my work, click here: </p>
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/KarenAmicone"><img src={github} alt="github" id="social-media"></img> Github</a>
         </article>

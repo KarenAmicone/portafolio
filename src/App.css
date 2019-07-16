@@ -182,7 +182,7 @@ img {
   }
     
   .project__image {
-    height: 20em;
+    height: 19em;
     overflow: hidden;
     background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 10px 10px 0 0;
@@ -222,7 +222,11 @@ img {
     flex-grow: 1;
     color: black;
   }
-  
+
+ .project__tools>img{
+    width: 30px;
+ } 
+
   .project__foot {
     background-color: #ad5389;
     color: white;
@@ -247,6 +251,14 @@ img {
 
 .contact{
     margin: 20px;
+}
+
+.email{
+    height: 30vh;
+}
+
+.social-media{
+    height: 30vh;
 }
 
 #social-media{
@@ -293,7 +305,7 @@ img {
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 50vh;
+        height: 100vh;
         align-items: center;
         justify-items: center;
     }

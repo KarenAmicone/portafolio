@@ -5,7 +5,6 @@ import Work from './components/Work'
 import Contact from './components/Contact'
 import Intro from './components/Intro'
 //import Exp from './components/Experience'
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
 function App() {
