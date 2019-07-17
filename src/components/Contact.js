@@ -16,12 +16,19 @@ const Contact = () => {
                 <a href="mailto:karen_amicone@hotmail.com">karen_amicone@hotmail.com</a>
             </article>
             <article className="social-media">
-                <h3>Follow me</h3>
-                <img src={instagram} alt="instagram" id="social-media"></img><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/karenamicen/">@karenamicen</a>
-                <br></br>
-                <img src={github} alt="github" id="social-media"></img><a target="_blank" rel="noopener noreferrer" href="https://github.com/KarenAmicone">KarenAmicone</a>
-                <br></br>
-                <img src={linkedin} alt="linkedin" id="social-media"></img><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/karen-amicone/">karen-amicone</a>
+                    <h3>Follow me</h3>
+                    <br></br>
+                <div className="social-media-logos">
+                    <div className="logo">
+                        <img src={instagram} alt="instagram" id="social-media"></img><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/karenamicen/">@karenamicen</a>   
+                    </div>
+                    <div className="logo">
+                        <img src={github} alt="github" id="social-media"></img><a target="_blank" rel="noopener noreferrer" href="https://github.com/KarenAmicone">KarenAmicone</a>
+                    </div>
+                    <div className="logo">
+                        <img src={linkedin} alt="linkedin" id="social-media"></img><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/karen-amicone/">karen-amicone</a>
+                    </div>
+                </div>
             </article>
             </article>
     </section>

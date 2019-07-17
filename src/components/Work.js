@@ -24,6 +24,7 @@ const Work = () => {
                   {project.description}
                 </p>
                 <h5>Main tools</h5>
+                <br></br>
                 <div className="project__tools">
                   {project.tools.map(tool=>(
                     <img alt={tool} src={tool}></img>
