@@ -12,8 +12,10 @@ function App() {
     <section>
       <Intro/>
       <About/> 
-      <Work/> 
-      <Contact/>
+      <section className="part-two">
+        <Work/> 
+        <Contact/>
+      </section>
     </section> 
   );
 }

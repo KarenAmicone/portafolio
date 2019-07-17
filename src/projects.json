@@ -9,6 +9,7 @@
     },
     {
         "title": "Burger Queen",
+        "id": "burger",
         "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/burgerqueen.png?raw=true",
         "description": "Burger Queen is a PWA designed to record the orders of fast food restaurants." ,
         "repo": "https://github.com/KarenAmicone/Burger-Queen",

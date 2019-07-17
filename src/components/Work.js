@@ -14,7 +14,7 @@ const Work = () => {
         {projects.map(project=>(
             <div className="project" key={project.title}>
               <div className="project__image">
-                  <img src={project.img} alt={project.title}></img>
+                  <img src={project.img} alt={project.title} id={project.id}></img>
               </div>
               <div className="project__container">
                 <div className="project__title">
@@ -26,7 +26,7 @@ const Work = () => {
                 <h5>Main tools</h5>
                 <div className="project__tools">
                   {project.tools.map(tool=>(
-                    <img src={tool}></img>
+                    <img alt={tool} src={tool}></img>
                   ))}
                 </div>
                 <div className="project__foot">

@@ -173,6 +173,7 @@ img {
   
   .project {
     width: 19em;
+    height: 36em;
     margin: 1em;
     border-radius: 10px;
     background-color: rgba(250, 250, 250, 0.95);
@@ -193,6 +194,13 @@ img {
     display: block;
     opacity: 0.4;
     filter: grayscale(100%);
+  }
+
+  #burger {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
   }
   
   .project__container {
