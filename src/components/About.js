@@ -9,7 +9,7 @@ const About = () => {
                 <h2 id="title">Hi! I'm Karen Amicone. I love challenges and solving problems with code.</h2>
                 <article id="content">
                 <br></br>
-                    <p>I am a frontend developer who is passionate about learning. First I studied Economics, but I decided to make a career change because I discovered how fascinating an empowering Technology is.</p> 
+                    <p>I am a frontend developer who is passionate about learning. First I studied Economics, but I decided to make a career change because I discovered how fascinating and empowering Technology is.</p> 
                     {/* Since last January I've been working at Laboratoria, where I've created several apps with Javascript and React. */}
                     <br></br>
                     <p>I studied Economics at UNAM and frontend development at Laboratoria Coding.</p>
