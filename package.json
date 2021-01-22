@@ -11,7 +11,7 @@
     "react-scripts": "3.0.1",
     "react-scrollable-anchor": "^0.6.1"
   },
-  "homepage": "https://karenamicone.github.io/portafolio/",
+  "homepage": "http://karenamicone.com/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
