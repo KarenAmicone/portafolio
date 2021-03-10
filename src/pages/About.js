@@ -4,8 +4,10 @@ const About = () => {
 	return (
 		<section className="about-container">
 			<div className="about-me">
-				<h1>Mi carrera como desarrolladora empezó en 2019</h1>
-				<p>
+				<h1 className="section-title">
+					Mi carrera como desarrolladora empezó en 2019
+				</h1>
+				<p className="about-me-subtitle">
 					Aprendí desarrollo frontend en Laboratoria, donde obtuve este diploma
 				</p>
 				<img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/19408740"></img>
@@ -20,10 +22,10 @@ const About = () => {
 					con Javascript y Flutter.
 				</p>
 				<p>
-					Ahora trabajo con un partner de Facebook donde asisto a las empresas
-					para integrar el Píxel y las APIs de Conversiones de Facebook en sus
-					sistemas. Cuento con la certificación Marketing Developer y
-					Advertising API Developer de Facebook.
+					Ahora trabajo con un partner de Facebook donde desarrollo soluciones
+					para que las empresas puedan integrar el Píxel y las APIs de
+					Conversiones de Facebook en sus sistemas. Cuento con la certificación
+					Marketing Developer y Advertising API Developer de Facebook.
 				</p>
 				<p>
 					Quiero crear interfaces y sistemas geniales que las personas puedan
