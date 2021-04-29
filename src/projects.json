@@ -25,10 +25,10 @@
     },
     {
         "title": "Hipatia Project",
-        "img": "",
+        "img": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/hipatia.png?raw=true",
         "description": "Página para consultar datos del Banco Mundial sobre la brecha laboral de género de Brasil, Chile, México y Perú.",
         "repo": "https://github.com/KarenAmicone/cdmx-2019-01-bc-core-data-lovers",
-        "demo": "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/tic-tac.png?raw=true",
+        "demo": "https://karenamicone.github.io/cdmx-2019-01-bc-core-data-lovers/src/",
         "tools": ["https://github.com/KarenAmicone/portafolio/blob/master/src/assets/tools/reactnative.png?raw=true", "https://github.com/KarenAmicone/portafolio/blob/master/src/assets/tools/expo.jpg?raw=true"]
     }
 ]
